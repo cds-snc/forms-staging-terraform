@@ -78,25 +78,6 @@ variable "ecs_secret_notify_api_key" {
 
 # Task Forms Env Vars
 
-variable "email_to" {
-  type = string
-}
-
-variable "ssc_email_to" {
-  type = string
-}
-
-variable "notify_endpoint" {
-  type = string
-}
-
-variable "notify_template_id" {
-  type = string
-}
-
-variable "notify_ssc_template_id" {
-  type = string
-}
 # Forms Scaling
 
 variable "form_viewer_autoscale_enabled" {

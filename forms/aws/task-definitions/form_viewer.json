@@ -32,22 +32,6 @@
         {
           "name": "NOTIFY_ENDPOINT",
           "value": "${notify_endpoint}"
-        },
-        {
-          "name": "NOTIFY_TEMPLATE_ID",
-          "value": "${notify_template_id}"
-        },
-        {
-          "name": "NOTIFY_SSC_TEMPLATE_ID",
-          "value": "${notify_ssc_template_id}"
-        },
-        {
-          "name": "EMAIL_TO",
-          "valueFrom": "${email_to}"
-        },
-        {
-          "name": "SSC_EMAIL_TO",
-          "valueFrom": "${ssc_email_to}"
         }
       ],
       "secrets": [
