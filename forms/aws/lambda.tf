@@ -179,11 +179,6 @@ resource "aws_lambda_function" "templates" {
 
   runtime = "nodejs14.x"
 
-  environment {
-    variables = {
-    }
-  }
-
   vpc_config {
     subnet_ids         = [aws_subnet.forms_private.id]
     security_group_ids = [aws_security_group.lambdas.id]
