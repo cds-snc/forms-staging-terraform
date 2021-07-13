@@ -90,7 +90,7 @@ exports.handler = async function (event) {
         ]
         : [organisationID];
       } else {
-        SQL = "SELECT * FROM Templates";
+        SQL = "SELECT * FROM organisations";
       }
       break;
     case "UPDATE":
